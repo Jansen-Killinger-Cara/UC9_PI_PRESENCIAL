@@ -1,0 +1,13 @@
+cd C:\Users\JKC\Downloads\UC9_PI_PRESENCIAL
+dir
+dir/a
+echo "# UC9_PI_PRESENCIAL" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Jansen-Killinger-Cara/UC9_PI_PRESENCIAL.git
+git push -u origin main
+git status
+doskey /h
+doskey /h >MeusComandos.txt
